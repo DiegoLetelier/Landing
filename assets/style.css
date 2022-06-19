@@ -2,7 +2,7 @@
     font-family: 'Poppins', sans-serif;
     margin: 0;
     padding: 0;
-    overflow-x: none;
+   
 }
 
 * 
@@ -20,6 +20,7 @@
     max-width: 100px;
     margin-left: 2%;
     position: fixed;
+    z-index: 100;
 }
 
 .navigation__responsive__ul {
@@ -40,7 +41,7 @@
 .navigation__ul {
     text-align: end;
     margin-right: 8%;
-   
+    
     
 }
 
@@ -60,9 +61,12 @@
     color: rgb(234, 255, 4);
 }
 
+/* jumbotron */
+
 .customjumbo {
     background-color: #75dae0;
     margin: 0;
+    padding-bottom: 20px;
     
 }
 .customjumbo .amarillotitle {
@@ -77,6 +81,7 @@
 
 } 
 
+
 /* responsive menu */
 
 @media only screen and (max-width: 500px) {
@@ -85,7 +90,7 @@
     }
 }    
 
-/* jumbotron */
+
 
 /* carousel */
 
@@ -95,6 +100,7 @@
     max-width: 100%;
     max-height: 700px;
     align-items: center;
+    
 }
 
 /* products */
@@ -103,6 +109,16 @@
     
     padding: 50px;
     font-size: 50px;
+    text-align: center;
+}
+
+.customcardimg {
+    min-height: 240px;
+    
+   
+}
+
+.carditems {
     text-align: center;
 }
 
